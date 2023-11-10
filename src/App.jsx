@@ -19,7 +19,7 @@ function App() {
       <h2 className="font-bold text-4xl">Counert is {counter}</h2>
       <button className="text-4xl bg-balck" onClick={addValue}> Add the Counter Value {counter} </button>
       <br />
-      <button className="text-4xl" onClick={removeValue}>Remove The counter value {counter} </button>
+      <button className="text-4xl rounded-md" onClick={removeValue}>Remove The counter value {counter} </button>
     </center>
     </>
   )
